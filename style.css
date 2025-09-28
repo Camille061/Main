@@ -20,6 +20,7 @@ border-radius: 50px;
     .image {
         width: 40px;
         height: 40px;
+        border-radius: 20px;
     }
 
     .head-username {
@@ -38,32 +39,69 @@ border-radius: 50px;
         text-align: center;
     }
 
-    .contract-box {
-        align-items: center;
-        border-radius: 10px;
-        width: 200px;
-        height: 60px;
-        padding: 7px;
-        margin: 0 auto;
-        text-align: center;
-        display: flex;
-        background: linear-gradient(to right, #c0068b, #000000);
-        font-family: "Kanit", sans-serif;
-        font-size: large;
-        color: #ffffff;
-        margin-top: 20px;
+   .contract-box {
+    border: solid;
+    border-color: #7ad5ff;
+    align-items: center;
+    border-radius: 40px 140px / 70px 10px;
+    width: 200px;
+    height: 60px;
+    padding: 7px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #636363, #000000);
+    font-family: "Kanit", sans-serif;
+    font-size: large;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+
+    /* glow effect */
+    box-shadow: 0 0 10px rgba(122, 213, 255, 0.6), 0 0 20px rgba(122, 213, 255, 0.3);
+    transition: all 0.4s ease-in-out;
+    animation: glowPulse 3s infinite alternate;
+}
+
+/* hover animation */
+.contract-box:hover {
+    transform: scale(1.08) rotate(-1deg);
+    background: linear-gradient(135deg, #7ad5ff, #000000);
+    box-shadow: 0 0 25px rgba(122, 213, 255, 0.9), 0 0 45px rgba(122, 213, 255, 0.6);
+}
+
+/* pulse glow animation */
+@keyframes glowPulse {
+    0% {
+        box-shadow: 0 0 10px rgba(122, 213, 255, 0.4), 0 0 20px rgba(122, 213, 255, 0.2);
     }
+    100% {
+        box-shadow: 0 0 25px rgba(122, 213, 255, 0.9), 0 0 50px rgba(122, 213, 255, 0.6);
+    }
+}
 
     
 .contract-box:hover {
     transform: scale(1.08) rotate(-1deg);
-    background: linear-gradient(135deg, #ff00c8, #1a1a1a);
+
     box-shadow: 0 8px 20px rgba(255, 0, 200, 0.6);
     letter-spacing: 1px;
 }
 
 #myText {
-    background-color: #f2bee3;
+    background-image:
+    url(https://img.freepik.com/free-photo/illustration-rain-futuristic-city_23-2151406585.jpg?w=360);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-color: #b3009e;
 }
    
-  
+
+/* git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Camille061/Main.git
+git push -u origin main */
