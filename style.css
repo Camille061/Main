@@ -91,10 +91,10 @@ border-radius: 50px;
 
 #myText {
     background-image:
-    url(https://img.freepik.com/free-photo/illustration-rain-futuristic-city_23-2151406585.jpg?w=360);
-    background-repeat: no-repeat;
+    url(img/background2.jpg);
+ 
     height: 100vh;
-    background-size: cover;
+ 
     background-color: #b3009e;
 }
    
