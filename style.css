@@ -77,6 +77,30 @@ border-radius: 50px;
         text-align: center;
     }
 
+    #contract-box {
+         border: solid;
+    border-color: #7ad5ff;
+    align-items: center;
+    border-radius: 40px 140px / 70px 10px;
+    width: 200px;
+    height: 60px;
+    padding: 7px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #636363, #000000);
+    font-family: "Kanit", sans-serif;
+    font-size: large;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer; 
+    /* glow effect */
+    box-shadow: 0 0 10px rgba(122, 213, 255, 0.6), 0 0 20px rgba(122, 213, 255, 0.3);
+    transition: all 0.4s ease-in-out;
+    animation: glowPulse 3s infinite alternate;
+    }
+    
    .contract-box {
     border: solid;
     border-color: #7ad5ff;
@@ -94,8 +118,7 @@ border-radius: 50px;
     font-size: large;
     color: #ffffff;
     margin-top: 20px;
-    cursor: pointer;
-
+    cursor: pointer; 
     /* glow effect */
     box-shadow: 0 0 10px rgba(122, 213, 255, 0.6), 0 0 20px rgba(122, 213, 255, 0.3);
     transition: all 0.4s ease-in-out;
@@ -104,6 +127,12 @@ border-radius: 50px;
 
 /* hover animation */
 .contract-box:hover {
+    transform: scale(1.08) rotate(-1deg);
+    background: linear-gradient(135deg, #7ad5ff, #000000);
+    box-shadow: 0 0 25px rgba(122, 213, 255, 0.9), 0 0 45px rgba(122, 213, 255, 0.6);
+}
+
+#contract-box:hover {
     transform: scale(1.08) rotate(-1deg);
     background: linear-gradient(135deg, #7ad5ff, #000000);
     box-shadow: 0 0 25px rgba(122, 213, 255, 0.9), 0 0 45px rgba(122, 213, 255, 0.6);
