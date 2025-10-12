@@ -101,7 +101,7 @@ border-radius: 50px;
     animation: glowPulse 3s infinite alternate;
     }
     
-   .contract-box {
+   .contract-box, .discord-box{
     border: solid;
     border-color: #7ad5ff;
     align-items: center;
