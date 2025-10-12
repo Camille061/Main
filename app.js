@@ -6,10 +6,3 @@ line.addEventListener("click", function() {
 
 let discord = document.getElementById("discord-box");
 
-discord.addEventListener("click", function() {
-     e.preventDefault();
-    alert("ไม่ให้จ้า");
-       window.location.href = 'https://discord.com/users/1405831980473389126"';
-});
-
-
