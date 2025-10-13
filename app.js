@@ -1,8 +1,8 @@
-let line = document.getElementById("contract-box");
+let ig = document.getElementById("ig-box");
 
-line.addEventListener("click", function() {
-    alert("ไม่ให้จ้า");
+ig.addEventListener("click", function() {
+    alert("ส่องแล้วฟอลไอจีให้ด้วย");
 });
 
-let discord = document.getElementById("discord-box");
+
 

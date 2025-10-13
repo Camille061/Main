@@ -101,7 +101,7 @@ border-radius: 50px;
     animation: glowPulse 3s infinite alternate;
     }
     
-   .contract-box, .discord-box{
+   .contract-box, #ig-box{
     border: solid;
     border-color: #7ad5ff;
     align-items: center;
@@ -162,6 +162,10 @@ border-radius: 50px;
  
     height: 100vh;
  
+}#ig-box:hover {
+    transform: scale(1.08) rotate(-1deg);
+    background: linear-gradient(135deg, #7ad5ff, #000000);
+    box-shadow: 0 0 25px rgba(122, 213, 255, 0.9), 0 0 45px rgba(122, 213, 255, 0.6);
 }
    
 
