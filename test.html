@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    
 
-    <script src="main.lua"></script>
+<body>
+
+    <input id="inputbtn" type="text" placeholder="input">
+    <button id="btn" onclick="gh()">click</button>
+
+    <script>
+        function gh() {
+
+            let input = document.getElementById("inputbtn").value
+
+            document.write("Helllo " + input + "❤️ ");
+        }
+
+    </script>
+
+
 </body>
+
 </html>
